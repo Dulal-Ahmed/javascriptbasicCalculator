@@ -55,7 +55,9 @@ function rslt(){
 }
 function rst(){
     result.innerHTML = " ";
-     fstNumber = document.querySelector("#fstNumber").innerHTML = " ";
-     scndNumber = document.querySelector("#fstNumber").innerHTML = " ";
+    firstN(" ");
+    scn(" ");
+    mthsmbl.innerHTML = "....";
+    mathSimple.innerHTML = " .......... ";
    
 }
