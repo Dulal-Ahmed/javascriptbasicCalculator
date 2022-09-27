@@ -57,7 +57,7 @@ function rst(){
     result.innerHTML = " ";
     firstN(" ");
     scn(" ");
-    mthsmbl.innerHTML = "....";
-    mathSimple.innerHTML = " .......... ";
+    mathSimple.innerHTML = "-----";  
+    mthsmbl.innerHTML = "---";  
    
 }
