@@ -55,4 +55,6 @@ function rslt(){
 }
 function rst(){
     result.innerHTML = " ";
+    fstNumber.innerHTML = " ";
+    scndNumber.innerHTML = " ";
 }
