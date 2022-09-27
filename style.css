@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+header #clc{
+    max-width: 600px;
+    padding: 8px;
+    border: 2px solid rgb(75, 73, 73);
+    border-radius: 5px;
+    background: rgb(63, 62, 62);
+}
+header #clc h1{
+    padding: 4px 8px;
+    border: 1px inset rgb(41, 38, 38);
+    background-color: rgb(170, 168, 168);
+    border-radius: 5px;
+    color: rgb(82, 80, 80);
+}
+header #clc button{
+    padding: 2px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: rgb(82, 80, 80);
+    background: rgb(170, 168, 168);
+
+}
+header #clc  .inpDsgn{
+    margin-top: 10px;
+}
+header #clc  .inpDsgn input{
+    border-radius: 4px;
+    padding: 4px;
+    background-color: rgb(170, 168, 168);
+}
+.mathsimbleButton button{
+    flex: 20%;
+    min-width: 50px;
+}
+.mathsimbleButton{
+    margin-top: 10px;
+    padding: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#rlsttttt button{
+    flex: 45%;
+}
+#rlsttttt {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+@media (max-width:500px){
+  
+     .inpDsgn{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       gap: 5px;
+     }
+     .inpDsgn input{
+         flex: 80%;
+        }
+}

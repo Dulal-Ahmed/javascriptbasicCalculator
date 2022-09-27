@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Basic Calculator Using JavaScript</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+         <section id="clc">
+            <h1>  <span id="fstNumber"></span> <span id="mathSimple">-------  </span>   <span id="scndNumber"></span> <span id="result">=</span></h1>
+            <section class="inpDsgn">
+              <input type="number" placeholder="please inser any number" oninput="firstN(this.value)">  <button id="mthsmbl">....</button>  <input type="number" placeholder="please inser any number" oninput="scn(this.value)"  >
+            </section>
+            <section class="mathsimbleButton">
+                <button id="add"> + </button>
+                <button id="mns"> - </button>
+                <button id="mlt"> x </button>
+                <button id="dvsn"> / </button>
+
+            </section>
+            <section id="rlsttttt"> <button onclick="rslt()">result</button> <button onclick="rst()">Reset</button></section>
+         </section>
+    </header>
+    <script src="script.js"></script>
+</body>
+</html>
