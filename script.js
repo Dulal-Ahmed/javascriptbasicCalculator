@@ -55,6 +55,7 @@ function rslt(){
 }
 function rst(){
     result.innerHTML = " ";
-    fstNumber.innerHTML = " ";
-    scndNumber.innerHTML = " ";
+     fstNumber = document.querySelector("#fstNumber").innerHTML = " ";
+     scndNumber = document.querySelector("#fstNumber").innerHTML = " ";
+   
 }
